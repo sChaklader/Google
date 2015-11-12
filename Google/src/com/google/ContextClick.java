@@ -19,6 +19,8 @@ public class ContextClick {
 		Actions action = new Actions(driver);
 		action.contextClick(link).perform();
 		action.sendKeys("t").perform();
+		
+		System.out.println("page has been open");
 
 
 	}
