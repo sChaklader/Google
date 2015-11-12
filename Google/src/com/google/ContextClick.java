@@ -21,6 +21,7 @@ public class ContextClick {
 		action.sendKeys("t").perform();
 		
 		System.out.println("page has been open");
+		System.out.println("Hi am here");
 
 
 	}
